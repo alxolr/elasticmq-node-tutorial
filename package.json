@@ -1,0 +1,32 @@
+{
+  "name": "elasticmq-node-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "lint": "tslint --project",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxolr/elasticmq-node-tutorial.git"
+  },
+  "author": "Alexandru Olaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxolr/elasticmq-node-tutorial/issues"
+  },
+  "homepage": "https://github.com/alxolr/elasticmq-node-tutorial#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.352.0"
+  }
+}
